@@ -52,3 +52,7 @@ We plan on bringing the application to Windows Phone, Sailfish OS, iOS as well.
 Fork it and experiment as you wish.
 ----------------------------------------------------------
 For feature Request and Bug Report , Please see our mailing list.
+
+For our other projects, check out
+http://www.stepsbd.com/home/research-free-stuff/
+http://ultradefrag.sourceforge.net/en/index.html?about
