@@ -32,7 +32,7 @@ to :
 
 sms.sendTextMessage("01711027026", null,msg, null, null);
 
-You can use a regular phone number to 
+Changing the sent data
 -----------------------------------------------------
 SMS Format: 
 String msg ="WP gs 2,"+gps+","+water_source_str+","+water_source_str+","+source_sub;
