@@ -4,8 +4,8 @@ Global Clean Water Mapper (NASA Space Apps Challenge 2015)
 Read me version 1.0
 -------------------------------------------------
 Hello and welcome to our Project.
-This is a project we have put together in the
-two days of NASA Apps Challenge 2015.
+This is a project we have put together in the two days of 
+NASA Apps Challenge 2015.
 ----------------------------------------------
 All Sources are of GNU GPL 3.0 License
 ----------------------------------------------
@@ -53,6 +53,8 @@ Fork it and experiment as you wish.
 ----------------------------------------------------------
 For feature Request and Bug Report , Please see our mailing list.
 
-For our other projects, check out
+For our other projects, check out:
+
 http://www.stepsbd.com/home/research-free-stuff/
 http://ultradefrag.sourceforge.net/en/index.html?about
+http://www.nodesReOpen.com
