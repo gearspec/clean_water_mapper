@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Global_Potable_Water</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main__menu">Main_Menu</string>
+    <string name="title_activity_clean_water_activ">clean_water_activ</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+
+    <string name="water_source_prompt">Water Source Type</string>
+
+    <string-array name="water_source_type">
+            <item>Surface Water (River, Stream, Fountain)</item>
+            <item>Ground Water (Well, Deep Tube Well)</item>
+            <item>Tap Water (Water Network)</item>
+            <item>Biological (Plants)</item>
+            <item>Precipitation (Rain, Hail, Snow)</item>
+            <item>DeSalinated Water (Sea)</item>
+     </string-array>
+    <string name="title_activity_idiv_subgroup">idiv_subgroup</string>
+</resources>

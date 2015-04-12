@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gf22"
+    android:screenOrientation="portrait"
+
+    tools:context="com.stepsbd.iub_quarks.global_potable_water.ShowLocationActivity">
+
+    <TextView android:text="Service : " android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:id="@+id/txtMenu_display" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_menu"
+        android:textSize="19dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtMenu_display" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="lat..."
+        android:id="@+id/txtlat"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/txtMenu_display"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:layout_toStartOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="lng..."
+        android:id="@+id/txtlng"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/txtlat"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Latitude"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#33ADD6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtlat"
+        android:layout_alignBottom="@+id/txtlat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Longitude"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="#33ADD6"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/water_source_ui"
+        android:touchscreenBlocksFocus="true"
+        android:background="@drawable/green"
+        android:spinnerMode="dropdown"
+        android:layout_above="@+id/btn_submit_individual"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit As Individual"
+        android:id="@+id/btn_submit_individual"
+        android:onClick="showNewDate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/green"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_above="@+id/button2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Water Source Type :"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/water_source_ui"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit As Organization"
+        android:id="@+id/button2"
+        android:onClick="showNewDate"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/green"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="73dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+</RelativeLayout>
