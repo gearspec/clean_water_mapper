@@ -1,0 +1,21 @@
+2,23.81518-90.42802,Tap Water (Water Network),Tap Water (Water Network),Residential Network
+2,23.81518-90.42802,Surface Water (River, Stream, Fountain),Surface Water (River, Stream, Fountain),Stream
+2,23.81518-90.42802,Ground Water (Well, Deep Tube Well),Ground Water (Well, Deep Tube Well),Deep Tube Well
+2,24.812-90.428,Ground Water (Well, Deep Tube Well),Ground Water (Well, Deep Tube Well),Well
+2,98.54565-222.6564667,ground,grnd, pond
+1,73.872-166.3932,Grd Wtr,grd wtr,tubewell,arsenic test,22-45
+2,23.321-90.324,pukur
+2,23.745-90.5125,Ground Water (Well, Deep Tube Well),Ground Water (Well, Deep Tube Well),Deep Tube Well
+2,23.7697-90.4223,Biological (Plants),Biological (Plants),Plant-Water
+2,23.81518-90.42802,Precipitation (Rain, Hail, Snow),Precipitation (Rain, Hail, Snow),Hail
+2,23.81518-90.42802,DeSalinated (SeaWater),DeSalinated (SeaWater),Sea Water
+2,23.798,-90.4178,Grd Wtr,grd wtr,tubewell,arsenic test,50-45
+2,23.7428,-90.3771,Grd Wtr,grd wtr,tubewell,arsenic test,50-45
+2,23.7697,90.4223,Grd Wtr,grd wtr,tubewell,arsenic test,50-45
+2,23.81518-90.42802,Surface Water (River, Stream, Fountain),Surface Water (River, Stream, Fountain),River
+2,24.812-90.428,Tap Water (Water Network),Residential Network
+2,23.81518-90.42802,Surface Water (River, Stream, Fountain),Stream
+2,23.81518-90.42802,Surface Water (River, Stream, Fountain),Stream
+1,22.3014-134.5588,Grd Wtr,grd wtr,tubewell,arsenic test,50-45
+2,22.346-89.778,surface river,surface water,river
+1, 22.129-90.223, Surface river(river), surface water, lake, arsenic test,  50-4.75-254
